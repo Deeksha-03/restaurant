@@ -1,0 +1,155 @@
+#main
+{
+    background-image: url(../Images/0-multidish-2.jpg);
+    height: 60vh;/*for responsiveness*/
+    width: 100%;
+    background-size: cover;
+}
+
+#main .navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0px 30px;
+    
+}
+#main .navbar a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 10%;
+    margin: 5px;
+    border-color: orange;
+}
+
+#main .circle
+{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: white;
+}
+
+#main .circle:hover
+{
+    box-shadow: 10px 10px 54px rgba(0,0,0,0.17);
+}
+#main .D
+{
+    font-size: 40px;
+    color: orange;
+    padding: 1px 0px 0px 0px;
+    transform: translateY(-32%);
+    text-align: center;
+}
+
+
+#main a:hover
+{
+    color: black;
+}
+
+#main .Text
+{
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 140, 0);
+    display: inline-block;
+    justify-content: center;
+    opacity: 0.9;
+    line-height: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 552px) 
+{
+    #main .Text
+    {
+        color: white;
+        text-align: center;
+        background-color: rgb(255, 140, 0);
+        display: inline-block;
+        justify-content: center;
+        opacity: 0.9;
+        line-height: 20px;
+        line-break: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+}
+
+#main .search
+{
+    display:flex;
+    justify-content: center;
+}
+
+#main .search .first input
+{
+    margin:5px 30px;
+    height:25px;
+    width: 150px;
+    display: inline-block;
+    justify-content: center;
+    outline-color:darkorange;
+}
+
+#main .search .second input{
+    margin:5px 30px;
+    height:25px;
+    width: 150px;
+    display: inline-block;
+    justify-content: center;
+    outline-color:darkorange;
+}
+
+#quickfood
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#quickfood h1{
+    color:darkgoldenrod;
+    padding:10px 0px 0px 25px;
+}
+#quickfood p
+{
+    color:gray;
+    padding:0px 0px 10px 25px;
+}
+
+#foods .Food
+{
+    margin:25px;
+    height:150px;
+    width:350px;
+    border: 2px solid darkorange;
+    display: inline-block;
+}
+#foods .Food:hover
+{
+box-shadow: 10px 10px 54px rgba(0,0,0,0.17);
+}
+#foods .Food img
+{
+    height:150px;
+    float:left;
+    width:50%;
+    margin-right:15px;
+}
+
+#foods .Food p{
+    font-size: 28px;
+    color:orange;
+}
+#foods .Food h4{
+    color:gray;
+    word-wrap: break-word;
+} 
+
+
+
+
